@@ -1,0 +1,33 @@
+/* Etiketleri biçimlendirdik. */
+.Ortala{
+    text-align: center;
+}
+.Liste{
+    list-style-position: inside;
+}
+#Birinci-Baslik{
+    color: mediumvioletred;
+}
+a.linkler:visited{
+    color: royalblue;
+    background-color: whitesmoke;
+}
+a.linkler:active{
+    color: red;
+}
+.Ikinci-Baslik{
+    color: rgba(77, 8, 126, 0.85);
+}
+#Ucuncu-Baslik{
+    color: red;
+}
+li#muzikAletleri:nth-child(-n+4){
+    color: darkviolet;
+}
+.Vizyon-Misyon{
+    color: darkslateblue;
+}
+::selection{
+    color: whitesmoke;
+    background-color: black;
+}
